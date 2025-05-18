@@ -24,26 +24,13 @@ void loop() {
   just turns down one value and turns up the next value
 */
 void cycle(){
-  //yellow
-  digitalWrite(PIN10_RED, HIGH);
-  digitalWrite(PIN7_GREEN, HIGH);
-  digitalWrite(PIN3_BLUE, LOW);
-
-  delay(1000);
-
-  //purp
-  digitalWrite(PIN10_RED, HIGH);
-  digitalWrite(PIN7_GREEN, LOW);
-  digitalWrite(PIN3_BLUE, HIGH);
-
-  delay(1000);
-
-  //turq
-  digitalWrite(PIN10_RED, LOW);
-  digitalWrite(PIN7_GREEN, HIGH);
-  digitalWrite(PIN3_BLUE, HIGH);
-
-  delay(1000);
+  blink_custom_color(HIGH,LOW,LOW);
+  blink_custom_color(HIGH,HIGH,LOW);
+  blink_custom_color(LOW,HIGH,LOW);
+  blink_custom_color(LOW,HIGH,HIGH);
+  blink_custom_color(LOW,LOW,HIGH);
+  blink_custom_color(HIGH,LOW,HIGH);
+  blink_custom_color(LOW,LOW,LOW);
 }
 
 void blink_custom_color(int r,int g, int b){
