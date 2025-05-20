@@ -1,0 +1,26 @@
+messing around with arduino
+
+2025
+
+SAT MAY 17 
+  made some lights blink
+  > Blink2
+    - Alternate 2 lights blinking
+
+  > BlinkSeqential
+    - Make 3 lights blink in order
+
+SUN MAY 18
+  controlled the RGB LED
+  > RgbLED
+    - programmed the LED to change colors
+    - used red green and blue LED to indicate which colors are on
+  
+MON MAY 19
+  playing with buttons -> controlling lights with buttons
+  > ThreeButtons
+    - connect 3 buttons to print out "A", "B" , or "C" when pressed
+
+  > ToggleRGBwButtons
+    - used 3 buttons to toggle the RGB on a RGB LED
+    - used single red green and blue LED to inicate colors
